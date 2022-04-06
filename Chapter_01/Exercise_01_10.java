@@ -14,7 +14,7 @@ public class Exercise_01_10
 {
     public static final int LETHAL_OVERDOSE = 10; // grams
     public static final int TWELVE_OZ_CAN_CONTAIN_CAFFEINE = 34; // mg
-    public static final int SIXTEEN_OZ_CAN_CONTAIN_CAFFEINE = 160; // mg
+    public static final int SIXTEEN_OZ_CAN_CONTAIN_CAFFEINE = 160; // mg       
     public static void main(String[] args)
     {
         int mgToKillPerson = LETHAL_OVERDOSE * 1000;
