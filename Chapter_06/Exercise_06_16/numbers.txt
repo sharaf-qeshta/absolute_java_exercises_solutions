@@ -1,0 +1,50 @@
+665384 Alaska
+268596 Texas
+163696 California
+147040 Montana
+121590 New Mexico
+113990 Arizona
+110572 Nevada
+104094 Colorado
+98379 Oregon
+97813 Wyoming
+96714 Michigan
+86936 Minnesota
+84897 Utah
+83569 Idaho
+82278 Kansas
+77348 Nebraska
+77116 South Dakota
+71298 Washington
+70698 North Dakota
+69899 Oklahoma
+69707 Missouri
+65758 Florida
+65496 Wisconsin
+59425 Georgia
+57914 Illinois
+56273 Iowa
+54555 New York
+53819 North Carolina
+53179 Arkansas
+52420 Alabama
+52378 Louisiana
+48432 Mississippi
+46054 Pennsylvania
+44826 Ohio
+42775 Virginia
+42144 Tennessee
+40408 Kentucky
+36420 Indiana
+35380 Maine
+32020 South Carolina
+24230 West Virginia
+12406 Maryland
+10932 Hawaii
+10554 Massachusetts
+9616 Vermont
+9349 New Hampshire
+8723 New Jersey
+5543 Connecticut
+2489 Delaware
+1545 Rhode Island
