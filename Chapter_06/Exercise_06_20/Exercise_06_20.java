@@ -133,6 +133,7 @@ public class Exercise_06_20
         {
             names[index] = null;
             scores[index] = 0;
+            trim(index);
         }
         System.out.println();
     }
