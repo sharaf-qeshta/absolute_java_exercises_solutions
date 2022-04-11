@@ -1,0 +1,10 @@
+Ronaldo
+10400
+Didier
+9800
+Pele
+9750
+Benzema
+9000
+Kaka
+8400

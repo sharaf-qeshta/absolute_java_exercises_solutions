@@ -1,0 +1,10 @@
+Write a program that edits a text file to display each complete sentence with aperiod at the end in a separate line
+Your program should work as follows: Createa temporary file, copy from the source file to a temporary file and perform therequired operation
+Copy the contents of the temporary file back into the sourcefile
+Use a method (or methods) in the class File to remove the temporary file
+You will also want to use the class File for other things in your program
+Thetemporary file should have a name that is different from all existing files so thatthe existing files are not affected (except for the file being edited)
+Your programwill ask the user for the name of the file to be edited
+However, it will not ask theuser for the name of the temporary file, but will instead generate the name withinthe program
+You can generate the name any way that is clear and efficient
+Onepossible way to generate the temporary file is to start with an unlikely name, suchas "Temp1", and to append a digit, such as '1', until a name is found that doesnot name an existing file
