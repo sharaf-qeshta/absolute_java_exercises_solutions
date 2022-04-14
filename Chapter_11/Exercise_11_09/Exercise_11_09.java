@@ -59,7 +59,6 @@ public class Exercise_11_09
                 }
             }
         }
-        // If we got here, nothing was found
         return result;
     }
 
