@@ -27,6 +27,5 @@ public class Exercise_05_02
         System.out.println(fraction1.equals(fraction2)); // true
         fraction1.displayFraction(); // 1/3
         fraction2.displayFraction(); // 20/60
-
     }
 }
