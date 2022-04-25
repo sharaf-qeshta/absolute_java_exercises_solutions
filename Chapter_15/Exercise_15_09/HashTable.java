@@ -11,7 +11,6 @@ import java.util.Scanner;
  * this is the faster searching algorithm i encounter so far*/
 public class HashTable
 {
-    // Uses the generic LinkedList2 class from Display 15.7
     private final LinkedList<String>[] hashArray;
     private static final int SIZE = 10000; // for faster searching
 
