@@ -1,0 +1,22 @@
+9. Displays 15.34 and 15.35 provide the beginnings of a spell-checker. Refine the
+program to make it more useful. The modified program should read in a text file, parse
+each word, see if it is in the hash table, and, if not, output the line number and
+word of the potentially misspelled word. Discard any punctuation in the original
+text file. Use the words.txt file as the basis for the hash table dictionary. This file
+can be found on the book’s website. The file contains 87,314 words in the English
+language. Test your spell-checker on a short text document.
+
+10. Change the Set<T> class of Display 15.37 so that internally it uses a hash table
+to store its data instead of a linked list. The headers of the public methods should
+remain the same so that a program such as the demonstration in Display 15.38
+should still work without requiring any changes. Add a constructor that allows the
+user of the new Set<T> class to specify the size of the hash table array.
+For an additional challenge, implement the set using both a hash table and a
+linked list. Items added to the set should be stored using both data structures. Any
+operation requiring lookup of an item should use the hash table, and any operation
+requiring iteration through the items should use the linked list.
+
+
+classe Sharaf Qeshta (all are misspelled)
+classe Sharaf Qeshta (all are misspelled)
+classe Sharaf Qeshta (all are misspelled)
