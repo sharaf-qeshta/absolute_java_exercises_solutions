@@ -87,7 +87,7 @@ public class Exercise_15_11
                 System.out.println("Invalid Choice!");
         }
 
-        System.out.println("You Exist The Maze!!");
+        System.out.println("You Exit The Maze!!");
 
         /*
         * You are in room A of a maze of twisty little passages, all
@@ -105,7 +105,7 @@ public class Exercise_15_11
         * You are in room H of a maze of twisty little passages, all
         * alike. You can go  South East:
         * input: s
-        * You Exist The Maze!!
+        * You Exit The Maze!!
         * */
     }
 }
