@@ -1,0 +1,11 @@
+iba java_guru
+iba crisha
+iba ducky
+crisha java_guru
+crisha iba
+ducky java_guru
+ducky iba
+java_guru iba
+java_guru crisha
+java_guru ducky
+wittless java_guru
