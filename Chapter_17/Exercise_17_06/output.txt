@@ -1,0 +1,4 @@
+6. Create a simple text editor by using the component JTextArea that allows the user 
+to enter text. The program should have two buttons. The first button should save 
+the content of editor to a file, while the other should be to clear the contents of the 
+editor.
