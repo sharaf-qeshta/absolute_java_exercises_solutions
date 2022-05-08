@@ -91,14 +91,12 @@ public class Exercise_18_02 extends JPanel
         try (Scanner reader = new Scanner(new File(FILE_PATH)))
         {
             size = Integer.parseInt(reader.nextLine());
-            int i = 0;
             while (reader.hasNext())
             {
                 pixels.add(new ArrayList<>());
                 Scanner scanner = new Scanner(reader.nextLine());
                 while (scanner.hasNext())
-                    pixels.get(i).add(scanner.nextInt());
-                i++;
+                    pixels.get(pixels.size()-1).add(scanner.nextInt());
             }
         }
         catch (Exception ignored) { }
