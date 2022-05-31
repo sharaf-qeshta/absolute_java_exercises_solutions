@@ -1,9 +1,8 @@
-package chapter_nineteen.server;
+package chapter_nineteen;
 
-import com.sun.net.httpserver.HttpServer;
-
-import java.io.IOException;
-import java.net.InetSocketAddress;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
 
 /**
  * 6. This project shows how to create a simple Web server. Create a server program that
@@ -21,18 +20,34 @@ import java.net.InetSocketAddress;
  *
  * @author Sharaf Qeshta
  * */
+
 public class Exercise_19_06
 {
-    public static final int PORT = 8000;
-    public static final String WELCOME_MESSAGE = "<HTML><TITLE>Java Server</TITLE>This web \n" +
+    static String response = "<HTML><TITLE>Java Server</TITLE>This web" +
             "page was sent by our simple <B>Java Server</B></HTML>";
+    static int port = 8_000;
 
-    public static void main(String[] args) throws IOException
+    public static void main(String[] args)
     {
-        HttpServer server = HttpServer.create(new InetSocketAddress(PORT), 0);
-        System.out.println("server started at " + PORT);
-        server.createContext("/", new RootHandler());
-        server.setExecutor(null);
-        server.start();
+        try
+        {
+            System.out.println("Waiting for a connection on port 8000.");
+            ServerSocket serverSock = new ServerSocket(port);
+            Socket connectionSock = serverSock.accept();
+
+            PrintWriter out = new PrintWriter(connectionSock.getOutputStream());
+            out.println("HTTP/1.1 200 OK");
+            out.println("Content-Type: text/html");
+            out.println("Content-Length: " + response.length());
+            out.println();
+            out.println(response);
+            out.flush();
+            out.close();
+            connectionSock.close();
+        }
+        catch (Exception exception)
+        {
+            System.out.println(exception.getMessage());
+        }
     }
 }
