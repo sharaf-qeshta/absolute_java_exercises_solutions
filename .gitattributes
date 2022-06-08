@@ -1,5 +1,4 @@
 *.jsp linguist-detectable=true
-*.jsp linguist-language=jsp
 *.css linguist-detectable=false
 *.html linguist-detectable=false
 *.js linguist-detectable=false
